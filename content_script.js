@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
             let newIcon = document.createElement("img");
             newIcon.src = customIconURL;
             newIcon.style.width = "38px";
-            newIcon.style.height = "32px";
+            newIcon.style.height = "38px";
 
             targetIcon.replaceWith(newIcon);
             observer.disconnect();
