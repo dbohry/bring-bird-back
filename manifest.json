@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "bring bird back",
+  "version": "1.0",
+  "description": "Brings the best bird back",
+  "icons": {
+    "48": "icons/bird.png"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
