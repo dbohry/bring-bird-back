@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Brings the best bird back",
   "icons": {
-    "48": "icons/bird.png"
+    "38": "icons/bird.png"
   },
   "permissions": [
     "activeTab",
